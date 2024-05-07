@@ -10,11 +10,10 @@ void isPrime(int m)
             break;
         }
     }
-    if (count==0)
+    if (count == 0)
     {
-        printf("%d ",m);
+        printf("%d ", m);
     }
-    
 }
 void GeneratePrime(int x)
 {

@@ -1,19 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 void myFunction()
 {
     printf("I just got executed!\n");
 }
 int my_function(/*int x , int y*/)
 {
-    int x,y;
+    int x, y;
     printf("Enter 2 Numer:");
-    scanf("%d%d",&x,&y);
-    return x+y;
+    scanf("%d%d", &x, &y);
+    return x + y;
 }
 int main()
 {
-    int a,b;
+    int a, b;
     myFunction();
-    printf("%d\n",my_function());
+    printf("%d\n", my_function());
     return 0;
 }

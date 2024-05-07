@@ -1,14 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 void func(char k)
 {
-    printf("Value received from main: %c\n",k);
+    printf("Value received from main: %c\n", k);
 }
 
 int main()
 {
     char x;
     printf("Enter a Char : ");
-    scanf("%c",&x);
+    scanf("%c", &x);
     func(x);
     return 0;
 }

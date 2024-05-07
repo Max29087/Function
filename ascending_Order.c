@@ -1,4 +1,4 @@
-//Not compleate.
+// Not compleate.
 #include <stdio.h>
 #include <limits.h>
 void minimum()
